@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-eqip="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kunal's Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/ec4af67925.js" crossorigin="anonymous"></script>
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+	<div id="header">
+       <div class="container">
+		<nav>
+			<img src="images/logo.png" class="logo" alt="No image found">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+	    <div class="header-text">
+	         <p>Software Engineer</p>
+			 <h1>Hi, I'm <span>Kunal Upadhyay</span><br>From Agra,<br>Uttar Pradesh</h1>
+	    </div>
+	</div>
+</div>
+
+<!-- ------------about--------->
+
+
+<div id="about">
+	<div class="Container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/Kunal2.jpg" alt="No image found">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p style="font-family: sans-serif">I am a dedicated Software Engineer with expertise in web development, Python, PHP, and databases like MySQL and Oracle.I completed my MCA in 2024, I have built projects like Netflix, YouTube clones and Personal portfolio, showcasing my skills in creating responsive, user-friendly websites and applications. With strong technical proficiency and a commitment to continuous learning, I aim to contribute to innovative IT solutions while growing in the dynamic tech industry.</p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+					<p class="tab-links" onclick="opentab('Extracurricular activities')">Extracurricular activities</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>Web Deveplopment</span><br>Web site Developer</li>
+						<li><span>Web Scraping</span><br>Web Scrapper</li>
+						<!-- <li><span>App Developer</span><br>Building Android/ios Apps</li> -->
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>Currently</span><br>0 - Experience</li>
+						<!-- <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li> -->
+						<!-- <li><span>2017 - 2019</span><br>Internship at eKart Commerce.</li> -->
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2022 - 2024</span><br>MCA - Sharda University <br><li style="color: #BDB76B;">Passed with 70.04% Marks</li></li>
+						<li><span>2018 - 2021</span><br>B.Sc - D.B.R.A University, Agra <br><li style="color: #BDB76B;">Passed with 53.11% Marks</li></li>
+						<li><span>2016 - 2017</span><br>Intermidiate - U.P. Board <br><li style="color: #BDB76B;">Passed with 85% Marks</li></li>
+						<li><span>2014 - 2015</span><br>High School - U.P. Board <br><li style="color: #BDB76B;">Passed with 77.33% Marks</li></li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="Extracurricular activities">
+					<ul>
+						<li><span>2021</span><br>Spoorthi - At college level <br><li style="color: #BDB76B;">Won Silver madel( 1st Runnerup in Athletics )</li></li>
+						<li><span>2017</span><br>G.K. competition - At college level <br><li style="color: #BDB76B;">1st Rank in G.K. Comptition.</li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ---------------Services------------ -->
+
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Web site developer</h2>
+				<p>create and maintain websites, ensuring they are functional, user-friendly, and visually appealing.</p>
+				<a href="#">learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop"></i>
+				<h2>Web Scrapper</h2>
+				<p>A web scraper automatically extracts data from websites for analysis, monitoring, or integration into other applications.</p>
+				<a href="#">learn more</a>
+			</div>
+			<!-- <div>
+				<i class="fa-brands fa-adn"></i>
+				<h2>Application Developer</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<a href="#">learn more</a>
+			</div> -->
+		</div>
+	</div>
+</div>
+
+<!-- -------------Portfolio----------- -->
+
+ <div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/Work-1.png">
+			    <div class="layer">
+				    <h3>Personal Portfolio</h3>
+				    <p>This is my personal portfolio where you can see my skills and my hobbies etc.</p>
+				    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+				    <h3>Netflix clone</h3>
+				    <p>Made a clone of Netflix</p>
+				    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+				    <h3>Youtube clone</h3>
+				    <p>Made a clone of Youtube</p>
+				    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More</a>
+	</div>
+ </div>
+
+ <!-- -----------------Contact---------------- -->
+
+ <div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-tittle">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>Kunalupadhyay902@gmail.com</p>
+				<p><i class="fa-solid fa-square-phone"></i>+91 9760680854</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/profile.php?id=100070678359126&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://wa.me/qr/7GJNKCJRTFUUA1"><i class="fa-brands fa-square-whatsapp"></i></a>
+					<a href="https://www.linkedin.com/in/thekunalup17"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://www.instagram.com/thekunalupadhyay17/"><i class="fa-brands fa-square-instagram"></i></a>
+					<a href="https://github.com/Thekunalup17"><i class="fa-brands fa-square-github"></i></a>
+				</div>
+				<a href="images/Kunal_N5_U.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Full Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Write your Massege"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright © Kunal Made with <i class="fa-solid fa-heart"></i> by Kunal Upadhyay</p>
+	</div>
+ </div>
+
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links")
+	var tabcontents = document.getElementsByClassName("tab-contents")
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+	    }
+	    event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0"; 
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px"; 
+	}
+</script>
+
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbyMLT4vAANnqmMuZuD4GTkAn5_DBleXMSm-VzuOSJxoX5_IW4QNef_AnaxNkY68pYkH/exec'
+	const form = document.forms['submit-to-google-sheet']
+	const msg = document.getElementById("msg")
+  
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+		.then(response => {
+			msg.innerHTML = "Message sent successfully"
+			setTimeout(function(){
+				msg.innerHTML = ""
+			},5000)
+			form.reset()
+	    })
+		.catch(error => console.error('Error!', error.message))
+	})
+</script>
+
+</body>
+</html>
